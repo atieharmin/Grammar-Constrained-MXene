@@ -112,224 +112,85 @@ def rollout_autoregressive_with_logprobs(
     logprob_sums_tensor = torch.stack(logprob_sums, dim=0)  # [B]
     return seqs, logprob_sums_tensor
 
-def compute_symmetry_loss(grammar: MXeneGrammar, logits: torch.Tensor, labels: torch.Tensor, metas: List[Dict[str,Any]]) -> torch.Tensor:
-
-    B, T, V = logits.shape
-    loss_terms = []
-    probs = torch.softmax(logits, dim=-1)  # [B,T,V]
-
-    # Build mappings for different rule types
-    outer_map = grammar.metal2pids_outer_slot  # dict metal->set(pid)
-    inner_map = grammar.metal2pids_inner_slot  # dict metal->set(pid)
-    
-    # Get all metal and X rule IDs
-    metal_pids = set()
-    for pids in outer_map.values():
-        metal_pids.update(pids)
-    for pids in inner_map.values():
-        metal_pids.update(pids)
-    
-    x_pids = set()
-    for prod in grammar.prods:
-        if prod.lhs == "<X>":
-            x_pids.add(prod.pid)
-    
-    metals = list(outer_map.keys())
-    metal_idx = {m:i for i,m in enumerate(metals)}
-
-    for b, meta in enumerate(metas):
-        pos = meta["pos_tags"]
-        
-        # Handle outer metal symmetry (outer_L vs outer_R)
-        if pos["outer_L"] and pos["outer_R"]:
-            i = pos["outer_L"][0]; j = pos["outer_R"][0]
-            # distribution over metals at each pos
-            Pi = torch.zeros((len(metals),), device=logits.device)
-            Pj = torch.zeros((len(metals),), device=logits.device)
-            for m, pids in outer_map.items():
-                idxs = torch.tensor(list(pids), dtype=torch.long, device=logits.device)
-                Pi[metal_idx[m]] = probs[b, i, idxs].sum()
-                Pj[metal_idx[m]] = probs[b, j, idxs].sum()
-            # normalize
-            Pi = Pi / (Pi.sum() + 1e-9)
-            Pj = Pj / (Pj.sum() + 1e-9)
-            loss_terms.append(js_div(Pi, Pj))
-        
-        # Handle inner metal symmetry (inner_L vs inner_R) for MX3 structures
-        if pos["inner_L"] and pos["inner_R"]:
-            i = pos["inner_L"][0]; j = pos["inner_R"][0]
-            # distribution over metals at each pos
-            Pi = torch.zeros((len(metals),), device=logits.device)
-            Pj = torch.zeros((len(metals),), device=logits.device)
-            for m, pids in inner_map.items():
-                idxs = torch.tensor(list(pids), dtype=torch.long, device=logits.device)
-                Pi[metal_idx[m]] = probs[b, i, idxs].sum()
-                Pj[metal_idx[m]] = probs[b, j, idxs].sum()
-            # normalize
-            Pi = Pi / (Pi.sum() + 1e-9)
-            Pj = Pj / (Pj.sum() + 1e-9)
-            loss_terms.append(js_div(Pi, Pj))
-        
-        # Handle X element symmetry - compare all X positions
-        if pos["x"] and len(pos["x"]) >= 2:
-            x_positions = pos["x"]
-            # Compare each X position with its mirrored counterpart
-            for i in range(len(x_positions) // 2):
-                j = len(x_positions) - 1 - i  # mirror position
-                if i != j:  # don't compare position with itself
-                    pos_i = x_positions[i]
-                    pos_j = x_positions[j]
-                    
-                    # Get distributions over X elements
-                    x_idxs = torch.tensor(list(x_pids), dtype=torch.long, device=logits.device)
-                    if len(x_idxs) > 0:
-                        Pi = probs[b, pos_i, x_idxs]
-                        Pj = probs[b, pos_j, x_idxs]
-                        # normalize
-                        Pi = Pi / (Pi.sum() + 1e-9)
-                        Pj = Pj / (Pj.sum() + 1e-9)
-                        loss_terms.append(js_div(Pi, Pj))
-    
-    if len(loss_terms) == 0:
-        return torch.tensor(0.0, device=logits.device)
-    return torch.stack(loss_terms).mean()
-
-# def same_element_loss(Pi: torch.Tensor,
-#                       Pj: torch.Tensor,
-#                       eps: float = 1e-9) -> torch.Tensor:
-#     """
-#     Pi, Pj: probability distributions over metals or X elements
-#             shape: [num_metals] or [num_x_elements]
-#     Returns a scalar loss that is 0 when Pi and Pj put all mass on the same element.
-#     """
-#     # Probability that two independent draws from Pi and Pj are the same element
-#     p_same = (Pi * Pj).sum()
-#     # Use -log to strongly penalize low agreement; 0 when p_same = 1
-#     return -torch.log(p_same + eps)
-
-
-# def compute_symmetry_loss(grammar: MXeneGrammar,
-#                           logits: torch.Tensor,
-#                           labels: torch.Tensor,
-#                           metas: List[Dict[str, Any]]) -> torch.Tensor:
-#     """
-#     Symmetry loss that measures how likely symmetric sites predict the *same element*,
-#     not full distribution equality. This matches "is the composition symmetric?" much better.
-#     """
+# def compute_symmetry_loss(grammar: MXeneGrammar, logits: torch.Tensor, labels: torch.Tensor, metas: List[Dict[str,Any]]) -> torch.Tensor:
 
 #     B, T, V = logits.shape
-#     device = logits.device
-#     probs = torch.softmax(logits, dim=-1)
-
 #     loss_terms = []
+#     probs = torch.softmax(logits, dim=-1)  # [B,T,V]
 
-#     # metal pid mappings
-#     outer_map = grammar.metal2pids_outer_slot   # metal -> set(pid)
-#     inner_map = grammar.metal2pids_inner_slot   # metal -> set(pid)
-
+#     # Build mappings for different rule types
+#     outer_map = grammar.metal2pids_outer_slot  # dict metal->set(pid)
+#     inner_map = grammar.metal2pids_inner_slot  # dict metal->set(pid)
+    
+#     # Get all metal and X rule IDs
+#     metal_pids = set()
+#     for pids in outer_map.values():
+#         metal_pids.update(pids)
+#     for pids in inner_map.values():
+#         metal_pids.update(pids)
+    
+#     x_pids = set()
+#     for prod in grammar.prods:
+#         if prod.lhs == "<X>":
+#             x_pids.add(prod.pid)
+    
 #     metals = list(outer_map.keys())
-#     metal_idx = {m: i for i, m in enumerate(metals)}
-
-#     # X rule ids
-#     x_pids = [prod.pid for prod in grammar.prods if prod.lhs == "<X>"]
-#     x_pids = torch.tensor(x_pids, dtype=torch.long, device=device) if len(x_pids) > 0 else None
+#     metal_idx = {m:i for i,m in enumerate(metals)}
 
 #     for b, meta in enumerate(metas):
 #         pos = meta["pos_tags"]
-
-#         # ----- Outer metal symmetry (outer_L vs outer_R) -----
+        
+#         # Handle outer metal symmetry (outer_L vs outer_R)
 #         if pos["outer_L"] and pos["outer_R"]:
-#             i = pos["outer_L"][0]
-#             j = pos["outer_R"][0]
-
-#             Pi = torch.zeros(len(metals), device=device)
-#             Pj = torch.zeros(len(metals), device=device)
-
-#             # Aggregate probability over all pids corresponding to each metal
+#             i = pos["outer_L"][0]; j = pos["outer_R"][0]
+#             # distribution over metals at each pos
+#             Pi = torch.zeros((len(metals),), device=logits.device)
+#             Pj = torch.zeros((len(metals),), device=logits.device)
 #             for m, pids in outer_map.items():
-#                 idxs = torch.tensor(list(pids), dtype=torch.long, device=device)
+#                 idxs = torch.tensor(list(pids), dtype=torch.long, device=logits.device)
 #                 Pi[metal_idx[m]] = probs[b, i, idxs].sum()
 #                 Pj[metal_idx[m]] = probs[b, j, idxs].sum()
-
+#             # normalize
 #             Pi = Pi / (Pi.sum() + 1e-9)
 #             Pj = Pj / (Pj.sum() + 1e-9)
-
-#             loss_terms.append(same_element_loss(Pi, Pj))
-
-#         # ----- Inner metal symmetry (inner_L vs inner_R) for MX3 -----
+#             loss_terms.append(js_div(Pi, Pj))
+        
+#         # Handle inner metal symmetry (inner_L vs inner_R) for MX3 structures
 #         if pos["inner_L"] and pos["inner_R"]:
-#             i = pos["inner_L"][0]
-#             j = pos["inner_R"][0]
-
-#             Pi = torch.zeros(len(metals), device=device)
-#             Pj = torch.zeros(len(metals), device=device)
-
+#             i = pos["inner_L"][0]; j = pos["inner_R"][0]
+#             # distribution over metals at each pos
+#             Pi = torch.zeros((len(metals),), device=logits.device)
+#             Pj = torch.zeros((len(metals),), device=logits.device)
 #             for m, pids in inner_map.items():
-#                 idxs = torch.tensor(list(pids), dtype=torch.long, device=device)
+#                 idxs = torch.tensor(list(pids), dtype=torch.long, device=logits.device)
 #                 Pi[metal_idx[m]] = probs[b, i, idxs].sum()
 #                 Pj[metal_idx[m]] = probs[b, j, idxs].sum()
-
+#             # normalize
 #             Pi = Pi / (Pi.sum() + 1e-9)
 #             Pj = Pj / (Pj.sum() + 1e-9)
-
-#             loss_terms.append(same_element_loss(Pi, Pj))
-
-#         # ----- X element symmetry: mirrored X positions -----
-#         if x_pids is not None and pos["x"] and len(pos["x"]) >= 2:
+#             loss_terms.append(js_div(Pi, Pj))
+        
+#         # Handle X element symmetry - compare all X positions
+#         if pos["x"] and len(pos["x"]) >= 2:
 #             x_positions = pos["x"]
-#             L = len(x_positions)
-#             mid = L // 2
-
-#             for k in range(mid):
-#                 pos_i = x_positions[k]
-#                 pos_j = x_positions[L - 1 - k]
-
-#                 Pi = probs[b, pos_i, x_pids]
-#                 Pj = probs[b, pos_j, x_pids]
-
-#                 Pi = Pi / (Pi.sum() + 1e-9)
-#                 Pj = Pj / (Pj.sum() + 1e-9)
-
-#                 loss_terms.append(same_element_loss(Pi, Pj))
-
+#             # Compare each X position with its mirrored counterpart
+#             for i in range(len(x_positions) // 2):
+#                 j = len(x_positions) - 1 - i  # mirror position
+#                 if i != j:  # don't compare position with itself
+#                     pos_i = x_positions[i]
+#                     pos_j = x_positions[j]
+                    
+#                     # Get distributions over X elements
+#                     x_idxs = torch.tensor(list(x_pids), dtype=torch.long, device=logits.device)
+#                     if len(x_idxs) > 0:
+#                         Pi = probs[b, pos_i, x_idxs]
+#                         Pj = probs[b, pos_j, x_idxs]
+#                         # normalize
+#                         Pi = Pi / (Pi.sum() + 1e-9)
+#                         Pj = Pj / (Pj.sum() + 1e-9)
+#                         loss_terms.append(js_div(Pi, Pj))
+    
 #     if len(loss_terms) == 0:
-#         return torch.tensor(0.0, device=device)
-
-#     return torch.stack(loss_terms).mean()
-
-# def compute_occupancy_loss(grammar: MXeneGrammar, logits: torch.Tensor, labels: torch.Tensor, metas: List[Dict[str,Any]]) -> torch.Tensor:
-#     """
-#     Encourage outer selections with better outer ranks and inner selections with better inverse ranks.
-#     Implemented as additional weighted NLL on the chosen production ids at those positions.
-#     """
-#     log_probs = torch.log_softmax(logits, dim=-1)
-#     loss_terms = []
-#     ranks_len = len(PREFERRED_OUTER)
-#     for b, meta in enumerate(metas):
-#         pos = meta["pos_tags"]
-#         # Outer positions: outer_single or (outer_L and outer_R)
-#         outer_positions = pos["outer_L"] + pos["outer_R"]
-#         inner_positions = pos["inner"]
-#         # use labels to get chosen production id -> determine metal
-#         for t in outer_positions:
-#             y = int(labels[b, t].item())
-#             if y < 0 or y >= len(grammar.prods): 
-#                 continue
-#             prod = grammar.prods[y]
-#             if prod.lhs in grammar.slot_nts and prod.rhs[0] in grammar.build_vocab().metals:
-#                 m = prod.rhs[0]
-#                 weight = 1.0 - rank_norm(rank_index_outer(m), ranks_len)
-#                 loss_terms.append(-weight * log_probs[b, t, y])
-#         for t in inner_positions:
-#             y = int(labels[b, t].item())
-#             if y < 0 or y >= len(grammar.prods): 
-#                 continue
-#             prod = grammar.prods[y]
-#             if prod.lhs in grammar.slot_nts and prod.rhs[0] in grammar.build_vocab().metals:
-#                 m = prod.rhs[0]
-#                 weight = 1.0 - rank_norm(rank_index_inner(m), ranks_len)
-#                 loss_terms.append(-weight * log_probs[b, t, y])
-#     if len(loss_terms)==0:
 #         return torch.tensor(0.0, device=logits.device)
 #     return torch.stack(loss_terms).mean()
 
@@ -537,14 +398,14 @@ def train_generator(config: Dict[str, Any]) -> None:
             # Custom losses with ramping
             warmup = int(config.get("warmup_steps", 50))
             ramp = min(1.0, float(global_step) / float(max(1, 2*warmup)))
-            symm_coeff = ramp * float(config.get("symm_weight", 0.0))
+            # symm_coeff = ramp * float(config.get("symm_weight", 0.0))
             occ_coeff = ramp * float(config.get("occ_weight", 0.0))
             grp_coeff = ramp * float(config.get("group_weight", 0.0))
 
-            symm_loss = compute_symmetry_loss(grammar, masked_logits, labels, metas) * symm_coeff
+            # symm_loss = compute_symmetry_loss(grammar, masked_logits, labels, metas) * symm_coeff
             occ_loss = compute_occupancy_loss(grammar, masked_logits, labels, metas) * occ_coeff
             grp_loss = compute_group_penalty(grammar, masked_logits, labels, metas) * grp_coeff
-            total_loss = ce_loss + symm_loss + occ_loss + grp_loss
+            total_loss = ce_loss + occ_loss + grp_loss
 
             # # Adversarial shaping (safe; no grad to D)
             # if adv_weight > 0 and disc is not None and epoch >= adv_after:
@@ -636,7 +497,7 @@ def train_generator(config: Dict[str, Any]) -> None:
             try:
                 batch_iter.set_postfix({
                     "ce": float(ce_loss.detach().cpu().item()),
-                    "sym": float(symm_loss.detach().cpu().item()),
+                    # "sym": float(symm_loss.detach().cpu().item()),
                     "occ": float(occ_loss.detach().cpu().item()),
                     "grp": float(grp_loss.detach().cpu().item()),
                     "rl": float(rl_loss.detach().cpu().item())
