@@ -1,0 +1,10 @@
+{
+    "model_cfg": {
+      "d_model": 256,
+      "nhead": 8,
+      "num_layers": 4,
+      "dropout": 0.1
+    },
+    "disc_ckpt": "runs/ablate/disc_ablate_v1/discriminator.pt"
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "run_dir": "runs/ablate/eval_ablate_A1",
+    "gen_ckpt": "runs/ablate/gen_ablate_A1_symm/generator.pt",
+    "data_jsonl": "data/aug_v1/dataset.jsonl",
+    "disc_ckpt": "runs/ablate/disc_ablate_v1/discriminator.pt",
+    "N": 1000,
+    "sampling": {
+      "temperature": 1.0,
+      "top_p": 0.9,
+      "max_len": 32
+    }
+  }
+  

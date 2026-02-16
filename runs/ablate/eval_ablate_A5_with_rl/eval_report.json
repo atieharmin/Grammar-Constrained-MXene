@@ -1,0 +1,36 @@
+{
+  "run_id": "13bba2d5-7a3e-4e5e-8ea3-891a4b893942",
+  "date": "2025-12-02",
+  "dataset_hash": "9e2ed464496234aa0428732ed3bf8f307413acd0e47e14409495012fc2209aa3",
+  "generator": {
+    "ckpt": "runs/ablate/gen_rl_stage1/generator.pt",
+    "validity_rate": 0.977,
+    "novelty": {
+      "avg_jaccard_complement": 0.9921268266925947
+    },
+    "invalid_reasons": {
+      "preference": 22,
+      "symmetry": 1
+    },
+    "unique_mxenes_count": 153
+  },
+  "discriminator": {
+    "ckpt": "runs/ablate/disc_ablate_v1/discriminator.pt",
+    "auc": 0.962306973432424,
+    "accuracy": 0.929
+  },
+  "sampling": {
+    "N": 1000,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "max_len": 32
+  },
+  "artifacts": {
+    "samples_jsonl": "runs/ablate/eval_ablate_A5_with_rl/samples.jsonl",
+    "samples_csv": "runs/ablate/eval_ablate_A5_with_rl/samples.csv",
+    "layers_all_txt": "runs/ablate/eval_ablate_A5_with_rl/samples_layers_all.txt",
+    "layers_valid_txt": "runs/ablate/eval_ablate_A5_with_rl/samples_layers_valid.txt",
+    "unique_mxenes_txt": "runs/ablate/eval_ablate_A5_with_rl/unique_mxenes.txt",
+    "unique_mxenes_jsonl": "runs/ablate/eval_ablate_A5_with_rl/unique_mxenes.jsonl"
+  }
+}

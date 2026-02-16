@@ -1,0 +1,176 @@
+{"rules": [1, 4, 11, 6, 37, 6, 21], "label": 0, "disc_prob": 0.001968024, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 9, 6, 31, 6, 19], "label": 1, "disc_prob": 0.982930839, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 7, 45, 7, 55, 7, 19], "label": 1, "disc_prob": 0.988006949, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 7, 45, 7, 55, 7, 22], "label": 1, "disc_prob": 0.985827327, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 46, 6, 56, 6, 19], "label": 1, "disc_prob": 0.986854434, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 6, 34, 6, 21], "label": 1, "disc_prob": 0.984555423, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 14, 6, 35, 6, 24], "label": 1, "disc_prob": 0.987581253, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 35, 7, 20], "label": 1, "disc_prob": 0.988169551, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 6, 34, 6, 19], "label": 1, "disc_prob": 0.988349795, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 41, 6, 51, 6, 19], "label": 1, "disc_prob": 0.983262658, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 6, 47, 6, 57, 6, 24], "label": 1, "disc_prob": 0.978203893, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 9, 7, 19], "label": 1, "disc_prob": 0.98788327, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 44, 6, 54, 6, 18], "label": 1, "disc_prob": 0.985351563, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 42, 6, 52, 6, 20], "label": 0, "disc_prob": 0.612933874, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 15, 6, 25], "label": 1, "disc_prob": 0.965972006, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 32, 7, 19], "label": 0, "disc_prob": 0.986837268, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 6, 45, 6, 55, 6, 24], "label": 1, "disc_prob": 0.987209201, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 7, 37, 7, 21], "label": 0, "disc_prob": 0.976740837, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 10, 6, 20], "label": 1, "disc_prob": 0.987716615, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 42, 6, 52, 6, 21], "label": 0, "disc_prob": 0.171214864, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 9, 7, 46, 7, 56, 7, 19], "label": 0, "disc_prob": 0.988053501, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 13, 7, 35, 7, 23], "label": 1, "disc_prob": 0.987578094, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 14, 6, 24], "label": 1, "disc_prob": 0.987056255, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 41, 6, 51, 6, 20], "label": 1, "disc_prob": 0.612904847, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 7, 42, 7, 52, 7, 21], "label": 0, "disc_prob": 0.959834933, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 6, 35, 6, 18], "label": 1, "disc_prob": 0.98765856, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 12, 6, 22], "label": 0, "disc_prob": 0.98259145, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 7, 43, 7, 53, 7, 21], "label": 1, "disc_prob": 0.986245275, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 17, 7, 27], "label": 1, "disc_prob": 0.987029433, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 6, 33, 6, 18], "label": 0, "disc_prob": 0.002003891, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 10, 7, 44, 7, 54, 7, 20], "label": 0, "disc_prob": 0.987110138, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 6, 38, 6, 48, 6, 24], "label": 1, "disc_prob": 0.001351221, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 9, 7, 47, 7, 57, 7, 19], "label": 0, "disc_prob": 0.98803097, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 7, 35, 7, 18], "label": 1, "disc_prob": 0.98817575, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 13, 6, 36, 6, 23], "label": 1, "disc_prob": 0.987173796, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 14, 6, 31, 6, 24], "label": 1, "disc_prob": 0.001399314, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 11, 7, 46, 7, 56, 7, 21], "label": 0, "disc_prob": 0.968678653, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 7, 35, 7, 22], "label": 1, "disc_prob": 0.986801922, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 45, 6, 55, 6, 19], "label": 1, "disc_prob": 0.988298535, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 34, 7, 19], "label": 1, "disc_prob": 0.988123953, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 7, 45, 7, 55, 7, 18], "label": 1, "disc_prob": 0.987827659, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 12, 7, 22], "label": 1, "disc_prob": 0.986924112, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 17, 6, 27], "label": 1, "disc_prob": 0.985093176, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 6, 35, 6, 22], "label": 1, "disc_prob": 0.98455435, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 7, 45, 7, 55, 7, 20], "label": 1, "disc_prob": 0.987869918, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 6, 35, 6, 19], "label": 1, "disc_prob": 0.98841387, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 36, 7, 19], "label": 0, "disc_prob": 0.98836875, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 7, 47, 7, 57, 7, 20], "label": 0, "disc_prob": 0.986789286, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 45, 6, 55, 6, 20], "label": 1, "disc_prob": 0.987708807, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 7, 45, 7, 55, 7, 21], "label": 0, "disc_prob": 0.956501603, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 7, 36, 7, 18], "label": 0, "disc_prob": 0.987923682, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 13, 6, 35, 6, 23], "label": 0, "disc_prob": 0.987675786, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 7, 42, 7, 52, 7, 18], "label": 1, "disc_prob": 0.984495103, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 45, 6, 55, 6, 18], "label": 1, "disc_prob": 0.986607075, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 6, 37, 6, 19], "label": 1, "disc_prob": 0.988263071, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 7, 43, 7, 53, 7, 19], "label": 1, "disc_prob": 0.98725152, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 47, 6, 57, 6, 18], "label": 0, "disc_prob": 0.005310409, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 14, 7, 37, 7, 24], "label": 1, "disc_prob": 0.986919582, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 9, 6, 19], "label": 1, "disc_prob": 0.987943351, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 13, 6, 31, 6, 23], "label": 0, "disc_prob": 0.001844954, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 11, 7, 33, 7, 21], "label": 1, "disc_prob": 0.986780822, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 6, 46, 6, 56, 6, 24], "label": 1, "disc_prob": 0.976184249, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 33, 7, 19], "label": 1, "disc_prob": 0.988028944, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 8, 6, 18], "label": 1, "disc_prob": 0.988334298, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 43, 6, 53, 6, 19], "label": 1, "disc_prob": 0.976559639, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 44, 6, 54, 6, 20], "label": 0, "disc_prob": 0.006073508, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 13, 6, 45, 6, 55, 6, 23], "label": 1, "disc_prob": 0.987088978, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 37, 7, 19], "label": 1, "disc_prob": 0.988373756, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 7, 32, 7, 18], "label": 1, "disc_prob": 0.979938507, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 46, 6, 56, 6, 18], "label": 0, "disc_prob": 0.004859852, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 13, 7, 36, 7, 23], "label": 0, "disc_prob": 0.987636268, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 6, 35, 6, 20], "label": 1, "disc_prob": 0.988347232, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 7, 41, 7, 51, 7, 19], "label": 1, "disc_prob": 0.987376928, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 34, 7, 20], "label": 0, "disc_prob": 0.986607909, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 41, 6, 51, 6, 18], "label": 0, "disc_prob": 0.003333073, "disc_valid": 0, "reason": ""}
+{"rules": [0, 3, 14, 7, 24], "label": 1, "disc_prob": 0.987090528, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 6, 32, 6, 18], "label": 1, "disc_prob": 0.577687979, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 43, 6, 53, 6, 21], "label": 1, "disc_prob": 0.983022869, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 7, 35, 7, 19], "label": 1, "disc_prob": 0.988253176, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 14, 6, 36, 6, 24], "label": 1, "disc_prob": 0.98646009, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 6, 45, 6, 55, 6, 22], "label": 1, "disc_prob": 0.973837078, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 13, 7, 23], "label": 1, "disc_prob": 0.987271607, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 6, 33, 6, 20], "label": 0, "disc_prob": 0.003082559, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 10, 6, 31, 6, 20], "label": 1, "disc_prob": 0.575812042, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 6, 33, 6, 19], "label": 1, "disc_prob": 0.988232553, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 47, 6, 57, 6, 19], "label": 1, "disc_prob": 0.986256182, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 44, 6, 54, 6, 21], "label": 1, "disc_prob": 0.985880733, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 7, 37, 7, 22], "label": 0, "disc_prob": 0.904759407, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 6, 43, 6, 53, 6, 23], "label": 1, "disc_prob": 0.701720834, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 33, 7, 20], "label": 0, "disc_prob": 0.986579955, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 6, 44, 6, 54, 6, 19], "label": 1, "disc_prob": 0.987692177, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 6, 34, 6, 18], "label": 0, "disc_prob": 0.001685178, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 8, 7, 44, 7, 54, 7, 18], "label": 0, "disc_prob": 0.987495363, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 14, 6, 37, 6, 24], "label": 1, "disc_prob": 0.979872823, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 32, 7, 20], "label": 0, "disc_prob": 0.976453006, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 46, 6, 56, 6, 20], "label": 0, "disc_prob": 0.003008699, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 9, 7, 31, 7, 19], "label": 1, "disc_prob": 0.987361789, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 39, 6, 49, 6, 21], "label": 1, "disc_prob": 0.011509179, "disc_valid": 0, "reason": ""}
+{"rules": [0, 3, 15, 7, 25], "label": 1, "disc_prob": 0.98339051, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 7, 41, 7, 51, 7, 20], "label": 1, "disc_prob": 0.985103071, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 6, 42, 6, 52, 6, 18], "label": 1, "disc_prob": 0.574365973, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 47, 6, 57, 6, 21], "label": 0, "disc_prob": 0.00181587, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 12, 6, 38, 6, 48, 6, 22], "label": 1, "disc_prob": 0.010869826, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 13, 7, 37, 7, 23], "label": 1, "disc_prob": 0.987374485, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 7, 34, 7, 21], "label": 1, "disc_prob": 0.986951053, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 7, 47, 7, 57, 7, 23], "label": 1, "disc_prob": 0.987092733, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 7, 35, 7, 21], "label": 0, "disc_prob": 0.922697842, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 13, 6, 23], "label": 1, "disc_prob": 0.987303793, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 7, 47, 7, 57, 7, 18], "label": 0, "disc_prob": 0.986862898, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 9, 6, 36, 6, 19], "label": 1, "disc_prob": 0.988623202, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 37, 7, 20], "label": 0, "disc_prob": 0.986729145, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 6, 30, 6, 21], "label": 1, "disc_prob": 0.004128761, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 8, 7, 34, 7, 18], "label": 0, "disc_prob": 0.986612678, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 7, 42, 7, 52, 7, 20], "label": 0, "disc_prob": 0.979397953, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 8, 7, 18], "label": 1, "disc_prob": 0.987974286, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 36, 7, 20], "label": 0, "disc_prob": 0.987802088, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 6, 33, 6, 21], "label": 1, "disc_prob": 0.985105634, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 14, 7, 35, 7, 24], "label": 1, "disc_prob": 0.987431884, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 6, 41, 6, 51, 6, 23], "label": 1, "disc_prob": 0.002754427, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 13, 6, 47, 6, 57, 6, 23], "label": 1, "disc_prob": 0.981110334, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 7, 36, 7, 22], "label": 0, "disc_prob": 0.893927932, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 7, 46, 7, 56, 7, 24], "label": 1, "disc_prob": 0.986735702, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 13, 6, 37, 6, 23], "label": 0, "disc_prob": 0.984493911, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 16, 7, 26], "label": 1, "disc_prob": 0.985613406, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 16, 6, 26], "label": 1, "disc_prob": 0.922677994, "disc_valid": 1, "reason": ""}
+{"rules": [0, 3, 10, 7, 20], "label": 1, "disc_prob": 0.988000333, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 7, 36, 7, 21], "label": 0, "disc_prob": 0.96727699, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 9, 7, 44, 7, 54, 7, 19], "label": 1, "disc_prob": 0.98759973, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 6, 46, 6, 56, 6, 23], "label": 1, "disc_prob": 0.970249236, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 6, 34, 6, 20], "label": 0, "disc_prob": 0.003911643, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 10, 6, 37, 6, 20], "label": 0, "disc_prob": 0.001711602, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 13, 7, 45, 7, 55, 7, 23], "label": 1, "disc_prob": 0.987206578, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 7, 47, 7, 57, 7, 21], "label": 0, "disc_prob": 0.973556995, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 6, 32, 6, 21], "label": 0, "disc_prob": 0.011824264, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 8, 6, 37, 6, 18], "label": 0, "disc_prob": 0.001384047, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 6, 41, 6, 51, 6, 24], "label": 1, "disc_prob": 0.002602312, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 14, 7, 36, 7, 24], "label": 1, "disc_prob": 0.987392128, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 6, 46, 6, 56, 6, 22], "label": 0, "disc_prob": 0.001448628, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 7, 47, 7, 57, 7, 24], "label": 1, "disc_prob": 0.986841083, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 10, 7, 31, 7, 20], "label": 1, "disc_prob": 0.960088372, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 7, 37, 7, 18], "label": 0, "disc_prob": 0.986249566, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 7, 32, 7, 21], "label": 0, "disc_prob": 0.971009135, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 8, 6, 36, 6, 18], "label": 0, "disc_prob": 0.001868051, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 8, 7, 33, 7, 18], "label": 0, "disc_prob": 0.986167371, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 45, 6, 55, 6, 21], "label": 0, "disc_prob": 0.002778784, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 12, 7, 47, 7, 57, 7, 22], "label": 0, "disc_prob": 0.954717934, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 7, 46, 7, 56, 7, 20], "label": 0, "disc_prob": 0.986845613, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 6, 34, 6, 22], "label": 1, "disc_prob": 0.001759889, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 11, 6, 35, 6, 21], "label": 0, "disc_prob": 0.004599628, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 10, 6, 32, 6, 20], "label": 0, "disc_prob": 0.504141629, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 40, 6, 50, 6, 21], "label": 1, "disc_prob": 0.008753998, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 7, 45, 7, 55, 7, 24], "label": 1, "disc_prob": 0.987120211, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 7, 46, 7, 56, 7, 22], "label": 0, "disc_prob": 0.953812778, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 7, 46, 7, 56, 7, 23], "label": 1, "disc_prob": 0.986778378, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 11, 6, 36, 6, 21], "label": 0, "disc_prob": 0.002693573, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 11, 7, 44, 7, 54, 7, 21], "label": 1, "disc_prob": 0.986547232, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 8, 7, 46, 7, 56, 7, 18], "label": 0, "disc_prob": 0.986946404, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 6, 42, 6, 52, 6, 22], "label": 1, "disc_prob": 0.578578591, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 10, 6, 47, 6, 57, 6, 20], "label": 0, "disc_prob": 0.003815899, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 12, 6, 36, 6, 22], "label": 0, "disc_prob": 0.001852329, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 8, 7, 41, 7, 51, 7, 18], "label": 0, "disc_prob": 0.98609817, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 6, 47, 6, 57, 6, 22], "label": 0, "disc_prob": 0.001475337, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 13, 6, 39, 6, 49, 6, 23], "label": 1, "disc_prob": 0.001445514, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 6, 44, 6, 54, 6, 24], "label": 1, "disc_prob": 0.985273898, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 13, 7, 41, 7, 51, 7, 23], "label": 1, "disc_prob": 0.98491621, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 12, 7, 42, 7, 52, 7, 22], "label": 1, "disc_prob": 0.87179786, "disc_valid": 1, "reason": ""}
+{"rules": [1, 4, 12, 6, 28, 6, 22], "label": 1, "disc_prob": 0.016426852, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 12, 6, 37, 6, 22], "label": 0, "disc_prob": 0.001236079, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 7, 41, 7, 51, 7, 24], "label": 1, "disc_prob": 0.984880567, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 11, 6, 40, 6, 57, 6, 21], "label": 0, "disc_prob": 0.003244301, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 11, 6, 40, 6, 55, 6, 21], "label": 0, "disc_prob": 0.003847718, "disc_valid": 0, "reason": ""}
+{"rules": [1, 4, 12, 7, 34, 7, 22], "label": 1, "disc_prob": 0.77054745, "disc_valid": 1, "reason": ""}
+{"rules": [2, 5, 14, 6, 38, 6, 55, 6, 24], "label": 0, "disc_prob": 0.19013986, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 12, 6, 38, 6, 55, 6, 22], "label": 0, "disc_prob": 0.002032914, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 14, 6, 38, 6, 51, 6, 24], "label": 0, "disc_prob": 0.001408887, "disc_valid": 0, "reason": ""}
+{"rules": [2, 5, 13, 6, 39, 6, 56, 6, 23], "label": 0, "disc_prob": 0.001510993, "disc_valid": 0, "reason": ""}

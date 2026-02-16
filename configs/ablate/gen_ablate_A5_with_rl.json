@@ -1,0 +1,46 @@
+{
+  "run_dir": "runs/ablate/gen_rl_stage1",
+  "seed": 1337,
+  "device": "cuda",
+
+  "data_jsonl": "data/aug_v1/dataset.jsonl",
+  "extra_jsonls": [],
+
+  "model_cfg": {
+    "n_positions": 64,
+    "n_ctx": 64,
+    "n_layer": 6,
+    "n_head": 8,
+    "n_embd": 256,
+    "dropout": 0.1
+  },
+
+  "resume_ckpt": "runs/ablate/gen_ablate_A1/generator.pt",
+
+  "lr": 2e-4,
+  "betas": [0.9, 0.95],
+  "batch_size": 64,
+  "epochs": 20,
+  "warmup_steps": 5,
+  "save_every": 2,
+
+  "symm_weight": 0.0,
+  "occ_weight": 0.5,
+  "group_weight": 0.5,
+
+  "disc_ckpt": "runs/ablate/disc_ablate_v1/discriminator.pt",
+  "disc_model_cfg": {
+    "d_model": 256,
+    "nhead": 8,
+    "num_layers": 4,
+    "dropout": 0.1
+  },
+
+  "rl_weight": 0.1,
+  "rl_start_epoch": 2,
+  "sampling": {
+    "max_len": 32,
+    "temperature": 1.0,
+    "top_p": 0.9
+  }
+}

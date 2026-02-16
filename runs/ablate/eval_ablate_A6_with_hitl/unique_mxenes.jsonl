@@ -1,0 +1,147 @@
+{"layer_string": "Cr N Ta N Ta N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 8, 7, 44, 7, 54, 7, 18]}
+{"layer_string": "Nb C Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 13, 6, 23]}
+{"layer_string": "Mo C Hf C Hf C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 9, 6, 47, 6, 57, 6, 19]}
+{"layer_string": "Sc C Ta C Ta C Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "C", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 11, 6, 44, 6, 54, 6, 21]}
+{"layer_string": "Ta C Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 14, 6, 24]}
+{"layer_string": "Nb N Hf N Nb", "outer_L": "Nb", "inner": "Hf", "outer_R": "Nb", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 7, 37, 7, 23]}
+{"layer_string": "Ta N Ti N Ti N Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 14, 7, 45, 7, 55, 7, 24]}
+{"layer_string": "W N Ti N Ti N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 10, 7, 45, 7, 55, 7, 20]}
+{"layer_string": "Mo C Nb C Mo", "outer_L": "Mo", "inner": "Nb", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 33, 6, 19]}
+{"layer_string": "Hf N Hf", "outer_L": "Hf", "inner": null, "outer_R": "Hf", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 17, 7, 27]}
+{"layer_string": "Cr N V N V N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "V", "inner_R": "V", "rules": [2, 5, 8, 7, 42, 7, 52, 7, 18]}
+{"layer_string": "Mo N Nb N Mo", "outer_L": "Mo", "inner": "Nb", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 33, 7, 19]}
+{"layer_string": "Mo C Hf C Mo", "outer_L": "Mo", "inner": "Hf", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 37, 6, 19]}
+{"layer_string": "V C V", "outer_L": "V", "inner": null, "outer_R": "V", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 12, 6, 22]}
+{"layer_string": "Cr N V N Cr", "outer_L": "Cr", "inner": "V", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 32, 7, 18]}
+{"layer_string": "Nb N Zr N Nb", "outer_L": "Nb", "inner": "Zr", "outer_R": "Nb", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 7, 36, 7, 23]}
+{"layer_string": "W N Ta N W", "outer_L": "W", "inner": "Ta", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 34, 7, 20]}
+{"layer_string": "Sc C Zr C Sc", "outer_L": "Sc", "inner": "Zr", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 36, 6, 21]}
+{"layer_string": "V C Ti C V", "outer_L": "V", "inner": "Ti", "outer_R": "V", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 6, 35, 6, 22]}
+{"layer_string": "Sc N Hf N Hf N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 11, 7, 47, 7, 57, 7, 21]}
+{"layer_string": "Ta C Zr C Zr C Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 14, 6, 46, 6, 56, 6, 24]}
+{"layer_string": "Sc N Nb N Sc", "outer_L": "Sc", "inner": "Nb", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 33, 7, 21]}
+{"layer_string": "Mo N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 9, 7, 19]}
+{"layer_string": "Sc C Zr C Zr C Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 11, 6, 46, 6, 56, 6, 21]}
+{"layer_string": "W N Hf N Hf N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 10, 7, 47, 7, 57, 7, 20]}
+{"layer_string": "Mo N Hf N Mo", "outer_L": "Mo", "inner": "Hf", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 37, 7, 19]}
+{"layer_string": "Cr N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 8, 7, 18]}
+{"layer_string": "Ta C Ti C Ta", "outer_L": "Ta", "inner": "Ti", "outer_R": "Ta", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 6, 35, 6, 24]}
+{"layer_string": "Cr C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 8, 6, 18]}
+{"layer_string": "W C Sc C Sc C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 10, 6, 41, 6, 51, 6, 20]}
+{"layer_string": "Nb C Ti C Nb", "outer_L": "Nb", "inner": "Ti", "outer_R": "Nb", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 6, 35, 6, 23]}
+{"layer_string": "Mo N Hf N Hf N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 9, 7, 47, 7, 57, 7, 19]}
+{"layer_string": "W C Zr C Zr C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 10, 6, 46, 6, 56, 6, 20]}
+{"layer_string": "Sc C Ta C Sc", "outer_L": "Sc", "inner": "Ta", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 34, 6, 21]}
+{"layer_string": "Mo N Ta N Ta N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 9, 7, 44, 7, 54, 7, 19]}
+{"layer_string": "Mo N Ti N Ti N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 9, 7, 45, 7, 55, 7, 19]}
+{"layer_string": "W C Ti C W", "outer_L": "W", "inner": "Ti", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 35, 6, 20]}
+{"layer_string": "Sc N Zr N Sc", "outer_L": "Sc", "inner": "Zr", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 36, 7, 21]}
+{"layer_string": "Nb N Hf N Hf N Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 13, 7, 47, 7, 57, 7, 23]}
+{"layer_string": "Nb N Zr N Zr N Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 13, 7, 46, 7, 56, 7, 23]}
+{"layer_string": "Mo C Zr C Mo", "outer_L": "Mo", "inner": "Zr", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 36, 6, 19]}
+{"layer_string": "Nb C Zr C Nb", "outer_L": "Nb", "inner": "Zr", "outer_R": "Nb", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 6, 36, 6, 23]}
+{"layer_string": "Sc N V N Sc", "outer_L": "Sc", "inner": "V", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 32, 7, 21]}
+{"layer_string": "Cr C Hf C Cr", "outer_L": "Cr", "inner": "Hf", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 37, 6, 18]}
+{"layer_string": "Nb C Hf C Nb", "outer_L": "Nb", "inner": "Hf", "outer_R": "Nb", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 6, 37, 6, 23]}
+{"layer_string": "Mo C Ti C Mo", "outer_L": "Mo", "inner": "Ti", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 35, 6, 19]}
+{"layer_string": "Cr N Ti N Cr", "outer_L": "Cr", "inner": "Ti", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 35, 7, 18]}
+{"layer_string": "Mo C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 9, 6, 19]}
+{"layer_string": "Cr N Zr N Zr N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 8, 7, 46, 7, 56, 7, 18]}
+{"layer_string": "W N Ti N W", "outer_L": "W", "inner": "Ti", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 35, 7, 20]}
+{"layer_string": "Nb C Hf C Hf C Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 13, 6, 47, 6, 57, 6, 23]}
+{"layer_string": "Sc N Ta N Ta N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 11, 7, 44, 7, 54, 7, 21]}
+{"layer_string": "Mo C Sc C Mo", "outer_L": "Mo", "inner": "Sc", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 31, 6, 19]}
+{"layer_string": "Mo C Zr C Zr C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 9, 6, 46, 6, 56, 6, 19]}
+{"layer_string": "Ta N Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 14, 7, 24]}
+{"layer_string": "Mo C Sc C Sc C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 9, 6, 41, 6, 51, 6, 19]}
+{"layer_string": "W C Ti C Ti C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 10, 6, 45, 6, 55, 6, 20]}
+{"layer_string": "Cr C Zr C Cr", "outer_L": "Cr", "inner": "Zr", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 36, 6, 18]}
+{"layer_string": "Nb C Zr C Zr C Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 13, 6, 46, 6, 56, 6, 23]}
+{"layer_string": "Cr C Zr C Zr C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 8, 6, 46, 6, 56, 6, 18]}
+{"layer_string": "Ta N Hf N Ta", "outer_L": "Ta", "inner": "Hf", "outer_R": "Ta", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 7, 37, 7, 24]}
+{"layer_string": "Nb N Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 13, 7, 23]}
+{"layer_string": "Ta N Zr N Zr N Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 14, 7, 46, 7, 56, 7, 24]}
+{"layer_string": "Ti C Ti", "outer_L": "Ti", "inner": null, "outer_R": "Ti", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 15, 6, 25]}
+{"layer_string": "Ta C Hf C Ta", "outer_L": "Ta", "inner": "Hf", "outer_R": "Ta", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 6, 37, 6, 24]}
+{"layer_string": "Mo N Nb N Nb N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 9, 7, 43, 7, 53, 7, 19]}
+{"layer_string": "Sc N Ti N Sc", "outer_L": "Sc", "inner": "Ti", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 35, 7, 21]}
+{"layer_string": "Cr C V C Cr", "outer_L": "Cr", "inner": "V", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 32, 6, 18]}
+{"layer_string": "Ta C Hf C Hf C Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 14, 6, 47, 6, 57, 6, 24]}
+{"layer_string": "Mo N V N Mo", "outer_L": "Mo", "inner": "V", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 32, 7, 19]}
+{"layer_string": "V N Zr N V", "outer_L": "V", "inner": "Zr", "outer_R": "V", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 7, 36, 7, 22]}
+{"layer_string": "W C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 10, 6, 20]}
+{"layer_string": "Cr C Ti C Cr", "outer_L": "Cr", "inner": "Ti", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 35, 6, 18]}
+{"layer_string": "Sc C V C V C Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "C", "stoich": "MX3", "inner_L": "V", "inner_R": "V", "rules": [2, 5, 11, 6, 42, 6, 52, 6, 21]}
+{"layer_string": "Mo C Ta C Ta C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 9, 6, 44, 6, 54, 6, 19]}
+{"layer_string": "Ta C Ti C Ti C Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "C", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 14, 6, 45, 6, 55, 6, 24]}
+{"layer_string": "W N Zr N W", "outer_L": "W", "inner": "Zr", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 36, 7, 20]}
+{"layer_string": "Mo N Ti N Mo", "outer_L": "Mo", "inner": "Ti", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 35, 7, 19]}
+{"layer_string": "Sc C V C Sc", "outer_L": "Sc", "inner": "V", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 32, 6, 21]}
+{"layer_string": "Mo N Ta N Mo", "outer_L": "Mo", "inner": "Ta", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 34, 7, 19]}
+{"layer_string": "Zr C Zr", "outer_L": "Zr", "inner": null, "outer_R": "Zr", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 16, 6, 26]}
+{"layer_string": "Cr C Ta C Ta C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 8, 6, 44, 6, 54, 6, 18]}
+{"layer_string": "V C Zr C V", "outer_L": "V", "inner": "Zr", "outer_R": "V", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 6, 36, 6, 22]}
+{"layer_string": "Sc N Nb N Nb N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 11, 7, 43, 7, 53, 7, 21]}
+{"layer_string": "W C Zr C W", "outer_L": "W", "inner": "Zr", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 36, 6, 20]}
+{"layer_string": "Cr N Ta N Cr", "outer_L": "Cr", "inner": "Ta", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 34, 7, 18]}
+{"layer_string": "Cr N Hf N Cr", "outer_L": "Cr", "inner": "Hf", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 37, 7, 18]}
+{"layer_string": "Ta N Hf N Hf N Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 14, 7, 47, 7, 57, 7, 24]}
+{"layer_string": "Cr C Ti C Ti C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 8, 6, 45, 6, 55, 6, 18]}
+{"layer_string": "Mo C Ti C Ti C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 9, 6, 45, 6, 55, 6, 19]}
+{"layer_string": "Sc C Ti C Sc", "outer_L": "Sc", "inner": "Ti", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 35, 6, 21]}
+{"layer_string": "Zr N Zr", "outer_L": "Zr", "inner": null, "outer_R": "Zr", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 16, 7, 26]}
+{"layer_string": "Nb N Ti N Nb", "outer_L": "Nb", "inner": "Ti", "outer_R": "Nb", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 13, 7, 35, 7, 23]}
+{"layer_string": "W C Sc C W", "outer_L": "W", "inner": "Sc", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 31, 6, 20]}
+{"layer_string": "Sc C Nb C Sc", "outer_L": "Sc", "inner": "Nb", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 33, 6, 21]}
+{"layer_string": "Cr N Sc N Sc N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 8, 7, 41, 7, 51, 7, 18]}
+{"layer_string": "W C Hf C Hf C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 10, 6, 47, 6, 57, 6, 20]}
+{"layer_string": "Sc C Nb C Nb C Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "C", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 11, 6, 43, 6, 53, 6, 21]}
+{"layer_string": "Ti N Ti", "outer_L": "Ti", "inner": null, "outer_R": "Ti", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 15, 7, 25]}
+{"layer_string": "Mo N Sc N Mo", "outer_L": "Mo", "inner": "Sc", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 31, 7, 19]}
+{"layer_string": "Cr C Ta C Cr", "outer_L": "Cr", "inner": "Ta", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 34, 6, 18]}
+{"layer_string": "Ta C Zr C Ta", "outer_L": "Ta", "inner": "Zr", "outer_R": "Ta", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 6, 36, 6, 24]}
+{"layer_string": "Cr C Sc C Sc C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 8, 6, 41, 6, 51, 6, 18]}
+{"layer_string": "W N Ta N Ta N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 10, 7, 44, 7, 54, 7, 20]}
+{"layer_string": "V N V", "outer_L": "V", "inner": null, "outer_R": "V", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 12, 7, 22]}
+{"layer_string": "Mo C Nb C Nb C Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "C", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 9, 6, 43, 6, 53, 6, 19]}
+{"layer_string": "W N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 10, 7, 20]}
+{"layer_string": "Cr C V C V C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "V", "inner_R": "V", "rules": [2, 5, 8, 6, 42, 6, 52, 6, 18]}
+{"layer_string": "W N Nb N Nb N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 10, 7, 43, 7, 53, 7, 20]}
+{"layer_string": "Cr N Ti N Ti N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 8, 7, 45, 7, 55, 7, 18]}
+{"layer_string": "W C Hf C W", "outer_L": "W", "inner": "Hf", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 37, 6, 20]}
+{"layer_string": "W C V C W", "outer_L": "W", "inner": "V", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 32, 6, 20]}
+{"layer_string": "Mo C Ta C Mo", "outer_L": "Mo", "inner": "Ta", "outer_R": "Mo", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 6, 34, 6, 19]}
+{"layer_string": "Sc N Ti N Ti N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 11, 7, 45, 7, 55, 7, 21]}
+{"layer_string": "Cr C Hf C Hf C Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 8, 6, 47, 6, 57, 6, 18]}
+{"layer_string": "W N Sc N W", "outer_L": "W", "inner": "Sc", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 31, 7, 20]}
+{"layer_string": "Ta N Zr N Ta", "outer_L": "Ta", "inner": "Zr", "outer_R": "Ta", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 7, 36, 7, 24]}
+{"layer_string": "Sc N Ta N Sc", "outer_L": "Sc", "inner": "Ta", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 34, 7, 21]}
+{"layer_string": "W N V N W", "outer_L": "W", "inner": "V", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 32, 7, 20]}
+{"layer_string": "Cr N Nb N Cr", "outer_L": "Cr", "inner": "Nb", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 33, 7, 18]}
+{"layer_string": "W N Sc N Sc N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 10, 7, 41, 7, 51, 7, 20]}
+{"layer_string": "Cr N Sc N Cr", "outer_L": "Cr", "inner": "Sc", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 31, 7, 18]}
+{"layer_string": "V N Ti N V", "outer_L": "V", "inner": "Ti", "outer_R": "V", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 7, 35, 7, 22]}
+{"layer_string": "Cr C Sc C Cr", "outer_L": "Cr", "inner": "Sc", "outer_R": "Cr", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 6, 31, 6, 18]}
+{"layer_string": "Sc C Hf C Hf C Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "C", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 11, 6, 47, 6, 57, 6, 21]}
+{"layer_string": "Nb C Ti C Ti C Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "C", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 13, 6, 45, 6, 55, 6, 23]}
+{"layer_string": "Mo N Zr N Mo", "outer_L": "Mo", "inner": "Zr", "outer_R": "Mo", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 9, 7, 36, 7, 19]}
+{"layer_string": "Hf C Hf", "outer_L": "Hf", "inner": null, "outer_R": "Hf", "x": "C", "stoich": "MX1", "inner_L": null, "inner_R": null, "rules": [0, 3, 17, 6, 27]}
+{"layer_string": "V C Hf C V", "outer_L": "V", "inner": "Hf", "outer_R": "V", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 6, 37, 6, 22]}
+{"layer_string": "Sc C Hf C Sc", "outer_L": "Sc", "inner": "Hf", "outer_R": "Sc", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 6, 37, 6, 21]}
+{"layer_string": "V N Hf N V", "outer_L": "V", "inner": "Hf", "outer_R": "V", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 12, 7, 37, 7, 22]}
+{"layer_string": "Nb N Ti N Ti N Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "N", "stoich": "MX3", "inner_L": "Ti", "inner_R": "Ti", "rules": [2, 5, 13, 7, 45, 7, 55, 7, 23]}
+{"layer_string": "Sc N Zr N Zr N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 11, 7, 46, 7, 56, 7, 21]}
+{"layer_string": "W C Nb C Nb C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 10, 6, 43, 6, 53, 6, 20]}
+{"layer_string": "Mo N Zr N Zr N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 9, 7, 46, 7, 56, 7, 19]}
+{"layer_string": "Nb C Nb C Nb C Nb", "outer_L": "Nb", "inner": null, "outer_R": "Nb", "x": "C", "stoich": "MX3", "inner_L": "Nb", "inner_R": "Nb", "rules": [2, 5, 13, 6, 43, 6, 53, 6, 23]}
+{"layer_string": "Mo N Sc N Sc N Mo", "outer_L": "Mo", "inner": null, "outer_R": "Mo", "x": "N", "stoich": "MX3", "inner_L": "Sc", "inner_R": "Sc", "rules": [2, 5, 9, 7, 41, 7, 51, 7, 19]}
+{"layer_string": "W C Ta C W", "outer_L": "W", "inner": "Ta", "outer_R": "W", "x": "C", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 6, 34, 6, 20]}
+{"layer_string": "W N Hf N W", "outer_L": "W", "inner": "Hf", "outer_R": "W", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 10, 7, 37, 7, 20]}
+{"layer_string": "Sc N Hf N Sc", "outer_L": "Sc", "inner": "Hf", "outer_R": "Sc", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 11, 7, 37, 7, 21]}
+{"layer_string": "W N Zr N Zr N W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "N", "stoich": "MX3", "inner_L": "Zr", "inner_R": "Zr", "rules": [2, 5, 10, 7, 46, 7, 56, 7, 20]}
+{"layer_string": "Ta C Ta C Ta C Ta", "outer_L": "Ta", "inner": null, "outer_R": "Ta", "x": "C", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 14, 6, 44, 6, 54, 6, 24]}
+{"layer_string": "Sc N V N V N Sc", "outer_L": "Sc", "inner": null, "outer_R": "Sc", "x": "N", "stoich": "MX3", "inner_L": "V", "inner_R": "V", "rules": [2, 5, 11, 7, 42, 7, 52, 7, 21]}
+{"layer_string": "Ta N Ti N Ta", "outer_L": "Ta", "inner": "Ti", "outer_R": "Ta", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 14, 7, 35, 7, 24]}
+{"layer_string": "W C Ta C Ta C W", "outer_L": "W", "inner": null, "outer_R": "W", "x": "C", "stoich": "MX3", "inner_L": "Ta", "inner_R": "Ta", "rules": [2, 5, 10, 6, 44, 6, 54, 6, 20]}
+{"layer_string": "Cr N Zr N Cr", "outer_L": "Cr", "inner": "Zr", "outer_R": "Cr", "x": "N", "stoich": "MX2", "inner_L": null, "inner_R": null, "rules": [1, 4, 8, 7, 36, 7, 18]}
+{"layer_string": "Cr N Hf N Hf N Cr", "outer_L": "Cr", "inner": null, "outer_R": "Cr", "x": "N", "stoich": "MX3", "inner_L": "Hf", "inner_R": "Hf", "rules": [2, 5, 8, 7, 47, 7, 57, 7, 18]}

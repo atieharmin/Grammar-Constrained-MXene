@@ -1,0 +1,25 @@
+Grammar Type,id,Tokens,outer,M_Count,inner,M'_Count,x,X_count
+M'2X,Ti2C,Ti C Ti,Ti,2,None,0,C,1
+M'2X,V2C,V C V,V,2,None,0,C,1
+M'2X,Mo2C,Mo C Mo,Mo,2,None,0,C,1
+M'2X,Cr2C,Cr C Cr,Cr,2,None,0,C,1
+M'2X,Nb2C,Nb C Nb,Nb,2,None,0,C,1
+M'2X,Ti2N,Ti N Ti,Ti,2,None,0,N,1
+M'2X,V2N,V N V,V,2,None,0,N,1
+M'3X2,Ti3C2,Ti C Ti C Ti,Ti,3,None,0,C,2
+M'3X2,Zr3C2,Zr C Zr C Zr,Zr,3,None,0,C,2
+M'3X2,Hf3C2,Hf C Hf C Hf,Hf,3,None,0,C,2
+M'4X3,Nb4C3,Nb C Nb C Nb C Nb,Nb,4,None,0,C,3
+M'4X3,V4C3,V C V C V C V,V,4,None,0,C,3
+M'4X3,Ta4C3,Ta C Ta C Ta C Ta,Ta,4,None,0,C,3
+M'4X3,Ti4N3,Ti N Ti N Ti N Ti,Ti,4,None,0,N,3
+M'2M''X2,Ti2NbC2,Ti C Nb C Ti,Ti,2,Nb,1,C,2
+M'2M''X2,Cr2TiC2,Cr C Ti C Cr,Cr,2,Ti,1,C,2
+M'2M''X2,Mo2TiC2,Mo C Ti C Mo,Mo,2,Ti,1,C,2
+M'2M''X2,Mo2ScC2,Mo C Sc C Mo,Mo,2,Sc,1,C,2
+M'2M''X2,Mo2VC2,Mo C V C Mo,Mo,2,V,1,C,2
+M'2M''X2,W2TiC2,W C Ti C W,W,2,Ti,1,C,2
+M'2M''2X3,Ta2Ti2C3,Ta C Ti C Ti C Ta,Ta,2,Ti,2,C,3
+M'2M''2X3,Mo2Nb2C3,Mo C Nb C Nb C Mo,Mo,2,Nb,2,C,3
+M'2M''2X3,Mo2Ti2C3,Mo C Ti C Ti C Mo,Mo,2,Ti,2,C,3
+M'2M''2X3,Mo2V2C3,Mo C V C V C Mo,Mo,2,V,2,C,3

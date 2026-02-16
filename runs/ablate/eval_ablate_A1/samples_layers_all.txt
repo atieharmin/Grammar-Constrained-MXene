@@ -1,0 +1,1000 @@
+Sc C Nb C Sc
+Ta C Ti C Ti C Ta
+Nb C Zr C Zr C Nb
+Cr C Ta C Cr
+Sc N Zr N Sc
+Cr C Zr C Cr
+Mo N Hf N Mo
+Mo C Ti C Ti C Mo
+Sc C Ti C Sc
+Mo N V N Mo
+Mo C Ti C Ti C Mo
+Ta N Zr N Ta
+Nb C Zr C Nb
+Ti N Ti
+V N Ti N V
+V N V
+Sc N V N Sc
+Sc C Mo C Mo C Sc
+Sc C Nb C Sc
+Cr C Zr C Cr
+Ta C Ta
+Ta N Hf N Hf N Ta
+Nb C Nb
+W C Ti C Ti C W
+Nb N Sc N Nb
+Ta N Ta
+W C Sc C Sc C W
+W C Ta C W
+Cr N Nb N Cr
+W C Zr C Zr C W
+Mo C Nb C Mo
+Cr N Nb N Nb N Cr
+Cr C Nb C Cr
+V N Hf N V
+W N W
+Nb N Ti N Ti N Nb
+W N Sc N Sc N W
+Mo C Ti C Mo
+Mo N Zr N Mo
+Mo C Zr C Zr C Mo
+Mo C Ti C Ti C Mo
+Cr C Hf C Hf C Cr
+Cr C Ti C Cr
+Sc N V N V N Sc
+W C Ti C W
+Mo N Ti N Mo
+W N Ta N W
+Ta N Ta
+W N Nb N W
+Ta C Hf C Ta
+Mo C Ta C Ta C Mo
+Mo C Ti C Mo
+Cr C Sc C Cr
+Ta C Zr C Ta
+Ta C Hf C Hf C Ta
+Mo C Sc C Sc C Mo
+Nb C Ti C Ti C Nb
+V C V
+Mo C Ti C Mo
+Sc N Nb N Nb N Sc
+Ta C Ti C Ti C Ta
+Sc C Zr C Sc
+V C Ti C V
+Mo C Sc C Mo
+Mo N Ta N Mo
+Ta N Zr N Ta
+Mo N Mo
+Cr C Ti C Cr
+Mo C Hf C Mo
+W C V C W
+Mo C V C Mo
+Sc C Zr C Zr C Sc
+Cr C V C V C Cr
+V N Ti N V
+W C Hf C W
+Mo N V N V N Mo
+W C Sc C W
+Nb C Ti C Ti C Nb
+Nb C Zr C Zr C Nb
+Nb N Ti N Nb
+Sc N Hf N Hf N Sc
+Sc N Hf N Sc
+Mo C Ti C Mo
+Cr C Ti C Ti C Cr
+Mo C Sc C Mo
+V C Zr C V
+Cr C Nb C Cr
+Mo C Ti C Mo
+Hf N Hf
+V N V
+Ta N Sc N Ta
+Sc N Ta N Sc
+Mo N Mo
+Ta C Ta
+Cr C Ta C Ta C Cr
+Cr C Zr C Cr
+Sc C Nb C Sc
+Cr C Ta C Cr
+V N V
+W C Sc C Sc C W
+W C Hf C W
+V C Ti C V
+Sc N Ti N Sc
+Ta C Ti C Ti C Ta
+Ta C Hf C Hf C Ta
+W C Sc C Sc C W
+Sc C Zr C Sc
+Cr N Ti N Cr
+Nb N Sc N Sc N Nb
+W C Ti C W
+W C Sc C W
+Cr C V C V C Cr
+Cr N Zr N Zr N Cr
+Sc C Nb C Nb C Sc
+Nb N Ti N Ti N Nb
+Ta C Sc C Sc C Ta
+Nb N Nb
+Mo C Mo
+Mo C Sc C Sc C Mo
+W N Sc N Sc N W
+Sc N Nb N Nb N Sc
+Mo C Sc C Sc C Mo
+Ta N Ti N Ti N Ta
+Sc C V C Sc
+Cr C Cr
+Nb C Ti C Nb
+Nb N Zr N Nb
+Sc C W C W C Sc
+Sc N Zr N Sc
+W C Sc C W
+Ta C Ti C Ti C Ta
+Mo C Nb C Mo
+V N Hf N V
+Mo N Mo
+W C Zr C W
+Hf N Hf
+Sc C Nb C Nb C Sc
+V C Hf C V
+V N Zr N V
+Sc C Ti C Ti C Sc
+Cr N Nb N Cr
+V C V
+Hf N Hf
+Mo C Hf C Hf C Mo
+Ta C Ti C Ta
+Cr N Zr N Cr
+V C Ti C Ti C V
+Nb N Hf N Nb
+W C W
+V N V
+Cr N Sc N Cr
+Mo C V C Mo
+V N Ti N Ti N V
+Sc C Nb C Sc
+Mo C V C Mo
+Mo N Zr N Mo
+Mo N V N Mo
+Mo C Hf C Hf C Mo
+Ta C Hf C Ta
+W N W
+Nb C Zr C Nb
+Sc C Nb C Sc
+W N Zr N W
+W C Ta C Ta C W
+Cr N V N Cr
+Ta N Zr N Zr N Ta
+Sc C Nb C Nb C Sc
+Mo N Sc N Mo
+Cr C Hf C Hf C Cr
+Cr N Hf N Hf N Cr
+Mo N Zr N Zr N Mo
+Mo C Sc C Mo
+Ta C Zr C Ta
+W N Sc N W
+W N W
+Cr N Zr N Zr N Cr
+Mo C Sc C Mo
+Sc N Nb N Sc
+Sc N Nb N Nb N Sc
+W N Sc N W
+Ta C Mo C Mo C Ta
+Cr C Sc C Cr
+V N Hf N V
+Sc N Ta N Ta N Sc
+W C Nb C Nb C W
+Mo C Sc C Mo
+Mo C Hf C Mo
+Sc C W C Hf C Sc
+Mo C Ti C Ti C Mo
+Nb N Nb
+V N V
+Ti N Ti
+V N Zr N V
+Mo C V C Mo
+Cr C Ti C Cr
+Cr N Hf N Cr
+V N Ti N V
+W N Hf N W
+Mo C Ti C Ti C Mo
+Ta C Hf C Hf C Ta
+Sc N Zr N Sc
+Ta C Zr C Ta
+Mo N Mo
+W N Ta N W
+Nb C Hf C Nb
+Cr N Zr N Zr N Cr
+Mo N V N Mo
+W C Hf C W
+Sc C Zr C Sc
+Mo C Mo
+W N V N W
+V C Hf C V
+Nb C Zr C Nb
+Ta C Zr C Zr C Ta
+W C Ta C W
+Mo C V C V C Mo
+Ta N Ta
+W C Hf C W
+W C Ti C Ti C W
+W N Nb N W
+Mo C Ti C Ti C Mo
+Ta C Ti C Ta
+Mo C Ta C Ta C Mo
+V N Ti N V
+Cr C Hf C Cr
+W N W
+Mo C Ta C Ta C Mo
+Mo N Sc N Sc N Mo
+Mo C Sc C Sc C Mo
+Sc C Ta C Ta C Sc
+W C Ta C Ta C W
+Ta C Cr C Cr C Ta
+Sc N Hf N Sc
+Sc C Ti C Sc
+Mo C Hf C Mo
+W N V N W
+Cr C Nb C Nb C Cr
+W C Sc C Sc C W
+Nb C Ti C Nb
+W C Sc C Sc C W
+Sc C Zr C Sc
+Mo C Sc C Sc C Mo
+Sc C Nb C Sc
+Nb C Hf C Nb
+V C V
+V N Zr N V
+Mo C Zr C Zr C Mo
+Cr C Ti C Cr
+Sc N Ta N Ta N Sc
+W N W
+Mo C Ta C Mo
+Ti C Ti
+Cr N Ti N Cr
+Nb C Zr C Nb
+Mo C Zr C Zr C Mo
+Cr C Hf C Hf C Cr
+Mo C Hf C Hf C Mo
+Mo C Hf C Hf C Mo
+Sc C Sc
+Mo N Ti N Mo
+W N Ti N Ti N W
+Cr N V N Cr
+W C Sc C Sc C W
+V C Zr C V
+Mo N Ti N Mo
+Sc C Sc
+W N Hf N Hf N W
+Mo C Nb C Mo
+W C V C V C W
+Nb C Sc C Nb
+W C Ti C Ti C W
+Nb C Nb
+Nb C Hf C Nb
+Sc N Ta N Sc
+Cr C Zr C Cr
+Ta C Zr C Ta
+W N Zr N W
+V N Ti N V
+Mo N Ti N Ti N Mo
+Nb C Zr C Nb
+Mo N V N V N Mo
+Mo C Ta C Ta C Mo
+Nb C Sc C Sc C Nb
+W N Ta N Ta N W
+W C Ta C Ta C W
+Nb C Sc C Nb
+W C V C V C W
+Mo C Hf C Hf C Mo
+V C Ti C Ti C V
+W C Hf C W
+Mo C Hf C Mo
+Ta C Zr C Ta
+W C Hf C Hf C W
+W C Zr C Zr C W
+Ta N Ti N Ta
+Nb C Ti C Nb
+Mo N Hf N Mo
+Mo C Zr C Zr C Mo
+Nb C Ti C Nb
+Sc N Hf N Sc
+Ti N Ti
+Sc C Nb C Nb C Sc
+Mo N Hf N Mo
+W N Sc N W
+Sc N Hf N Sc
+Mo N Ti N Mo
+V N Hf N Hf N V
+Cr N Ta N Cr
+Nb N Zr N Zr N Nb
+Cr C Hf C Cr
+Mo C Ti C Mo
+W C Ti C W
+Ta C Cr C Zr C Ta
+Cr N Ta N Cr
+Cr N Sc N Sc N Cr
+Nb N Zr N Zr N Nb
+W N Ta N Ta N W
+Nb C Nb
+Cr C Sc C Cr
+W N Sc N Sc N W
+Mo C Ta C Ta C Mo
+Nb C Nb
+Ta N Ta
+Mo N Sc N Mo
+Cr C Ti C Cr
+Ta C Zr C Ta
+Ta C Ti C Ta
+Cr N Cr
+Nb C Ti C Ti C Nb
+Sc C V C V C Sc
+Nb C Ti C Nb
+Mo C V C Mo
+Sc C Ta C Ta C Sc
+V C Ti C Ti C V
+W N Sc N Sc N W
+W N V N V N W
+Mo C Hf C Mo
+Mo N Hf N Hf N Mo
+Ti C Ti
+V C Hf C V
+Sc C Hf C Hf C Sc
+W C Ti C W
+Mo C Mo
+Cr C Ti C Ti C Cr
+Sc C Nb C Nb C Sc
+Ta C Hf C Ta
+Nb N Zr N Zr N Nb
+Sc N Nb N Nb N Sc
+Cr C Ta C Cr
+Mo N Nb N Mo
+Sc C Hf C Hf C Sc
+Ti C Ti
+Ta N Sc N Ta
+Cr C V C Cr
+W C Zr C W
+V N V
+W C Ti C W
+Sc C Nb C Sc
+W C Ti C Ti C W
+Nb N Zr N Nb
+Mo C Ti C Mo
+Cr C V C Cr
+V C Hf C V
+Nb C Ti C Ti C Nb
+Sc N Zr N Sc
+Cr N Ti N Cr
+Ti C Ti
+Sc C Zr C Zr C Sc
+Nb C Zr C Nb
+W N Hf N Hf N W
+Mo C Sc C Mo
+Mo C Zr C Zr C Mo
+Ta C Hf C Ta
+Cr C Zr C Cr
+Mo N V N V N Mo
+Cr C Hf C Cr
+W C Hf C W
+Mo C Nb C Nb C Mo
+V C Cr C Cr C V
+Cr C Zr C Cr
+Mo C Sc C Mo
+W N Sc N W
+Mo N Sc N Mo
+Mo C Zr C Zr C Mo
+Ta N Ti N Ti N Ta
+W C Sc C W
+Mo N Zr N Zr N Mo
+Mo C Zr C Zr C Mo
+Cr C Hf C Hf C Cr
+Mo C Ta C Ta C Mo
+Cr N V N Cr
+W N Ti N Ti N W
+Nb N Nb
+Nb C Ti C Nb
+Ta N Hf N Hf N Ta
+Sc C Nb C Sc
+Ta N Hf N Ta
+Mo N Mo
+Mo C Ti C Mo
+Mo N Ti N Mo
+Cr N Nb N Cr
+W C Hf C W
+Mo C Nb C Mo
+Nb N Hf N Nb
+W N Hf N W
+Mo C Hf C Mo
+Nb N Hf N Hf N Nb
+V C V
+W C Zr C W
+Nb C Zr C Zr C Nb
+Cr N Nb N Nb N Cr
+Ta N Zr N Zr N Ta
+Cr C Ta C Cr
+Ta N Ta
+Ti N Ti
+W C Zr C Zr C W
+Cr N Nb N Nb N Cr
+W N Ta N W
+Mo C V C V C Mo
+Ta C Zr C Ta
+Cr C Ti C Cr
+Mo N Sc N Mo
+Nb C Nb
+Mo N V N V N Mo
+Mo C Zr C Zr C Mo
+Cr C Nb C Nb C Cr
+Cr N Hf N Hf N Cr
+Nb N Nb
+Sc C Nb C Sc
+Mo N Ti N Mo
+Cr N V N Cr
+Mo N Ta N Ta N Mo
+Sc C Ta C Sc
+Sc C Nb C Nb C Sc
+W C V C W
+Mo C Nb C Mo
+Cr C Ti C Cr
+V C V C V C V
+W N W
+Cr C Ta C Ta C Cr
+Sc C Ta C Ta C Sc
+Ta C Sc C Ta
+V N Zr N V
+V N Ti N V
+Mo C Sc C Mo
+Mo C Sc C Mo
+Sc N Ti N Ti N Sc
+Cr C Cr
+Cr N Hf N Cr
+Sc C Nb C Sc
+Cr C Nb C Nb C Cr
+Cr N Zr N Cr
+W N Zr N W
+Sc N Ti N Sc
+Mo C Sc C Mo
+Cr C Sc C Sc C Cr
+Mo C Zr C Mo
+W C Hf C Hf C W
+W N Hf N W
+Mo C Ti C Mo
+Cr C V C Cr
+Mo C Ti C Ti C Mo
+V N Hf N Hf N V
+Ta C Sc C Sc C Ta
+Cr C Ti C Cr
+Nb C Ti C Ti C Nb
+Mo C V C V C Mo
+W C Sc C W
+V C Ti C V
+Mo C Ti C Mo
+Mo C Mo
+W N Zr N W
+Cr C V C V C Cr
+W N Ta N Ta N W
+Mo C V C Mo
+W C Sc C Sc C W
+Mo C Nb C Mo
+Mo C Ta C Mo
+W N Zr N W
+Nb C Sc C Nb
+W N W
+Sc N Nb N Sc
+Ti C Ti
+Nb C Ti C Nb
+Mo N V N Mo
+V C Ta C Ta C V
+Mo N Nb N Mo
+Cr N Zr N Zr N Cr
+Cr C Sc C Cr
+Cr C Ta C Cr
+W C Ta C W
+Cr C Cr
+W C W
+V C Hf C Hf C V
+Mo C Ta C Ta C Mo
+Cr C Ta C Ta C Cr
+W N Ta N Ta N W
+Sc N Ti N Ti N Sc
+W N Hf N W
+Mo N Zr N Zr N Mo
+Cr C Cr
+Nb C Hf C Hf C Nb
+W C Zr C Zr C W
+Sc N Hf N Hf N Sc
+Mo C Nb C Mo
+Ti C Ti
+W C Sc C Sc C W
+V N V
+Mo C Hf C Mo
+Sc C Nb C Nb C Sc
+Mo N Hf N Mo
+V C Ta C V
+Cr C Sc C Cr
+W N V N W
+Ta N Ta
+Sc N Hf N Sc
+Mo C Ta C Mo
+Cr N V N Cr
+W N Zr N W
+Mo C V C Mo
+Sc C Nb C Nb C Sc
+Mo N Sc N Mo
+Sc N Hf N Sc
+W N Ti N W
+Mo C Ti C Mo
+Mo N Mo
+Mo C Sc C Mo
+Cr C Cr
+Cr C Ti C Cr
+V N V
+Sc N V N Sc
+Mo C Sc C Mo
+Mo C Hf C Mo
+Cr N Hf N Hf N Cr
+W C Ta C W
+Nb C Nb
+Nb C Ti C Nb
+W N Hf N W
+Cr N Ti N Cr
+Sc C Ta C Sc
+Mo N Zr N Zr N Mo
+Mo C Sc C Sc C Mo
+Mo C Sc C Mo
+Hf C Hf
+Sc C Ta C Sc
+Nb C Zr C Zr C Nb
+W C V C W
+Ta N Hf N Hf N Ta
+Cr C Sc C Cr
+Mo N Ti N Ti N Mo
+Cr C Nb C Cr
+Mo C Ti C Ti C Mo
+Cr C Nb C Cr
+W N Hf N W
+Hf C Hf
+Mo C Nb C Mo
+Sc N Zr N Sc
+W N Zr N Zr N W
+Cr N Sc N Cr
+V C Zr C Zr C V
+W C Nb C Nb C W
+Mo C Zr C Mo
+V C Zr C Zr C V
+W N Ti N Ti N W
+Sc N Sc
+V C V
+Nb C Zr C Zr C Nb
+Cr N Zr N Cr
+Cr C Zr C Zr C Cr
+W N V N V N W
+Mo C Sc C Mo
+Mo N Mo
+Sc N Nb N Nb N Sc
+Mo C Zr C Mo
+Cr N Zr N Cr
+Mo C Sc C Mo
+Sc N Hf N Hf N Sc
+Mo C Ta C Mo
+Mo N Ti N Ti N Mo
+Mo C Hf C Hf C Mo
+Sc N V N V N Sc
+W N Sc N Sc N W
+W C V C V C W
+Sc N Ta N Sc
+Cr C Sc C Cr
+Ta C Zr C Ta
+Sc N Ta N Sc
+Cr N Sc N Cr
+Cr C Zr C Cr
+Ta C Zr C Ta
+Cr C Hf C Hf C Cr
+Mo N Nb N Nb N Mo
+Ta C Zr C Zr C Ta
+Cr N Sc N Sc N Cr
+Mo C Ta C Ta C Mo
+Mo C Zr C Zr C Mo
+Mo N V N V N Mo
+Mo N Ta N Ta N Mo
+Sc C Ti C Sc
+Sc C Ta C Ta C Sc
+Nb C Zr C Zr C Nb
+W N Ti N Ti N W
+Ta N Ti N Ta
+Cr C Cr
+Ta C Ti C Ta
+Cr N Zr N Zr N Cr
+Sc C Hf C Hf C Sc
+W C Ti C W
+Sc C W C W C Sc
+Sc C Nb C Sc
+Mo N Sc N Sc N Mo
+Mo N Zr N Mo
+Mo N Ti N Ti N Mo
+V N V
+Cr C Sc C Cr
+Cr C Cr
+Cr N Nb N Cr
+W C W
+Ta N Hf N Hf N Ta
+Nb C Ti C Nb
+W N V N W
+Mo C V C Mo
+Sc C Mo C Mo C Sc
+Cr N Zr N Cr
+Sc N V N Sc
+W N Hf N Hf N W
+Cr N Ta N Ta N Cr
+Sc N Zr N Zr N Sc
+Mo N Ti N Mo
+V N Hf N Hf N V
+V C V
+Nb N Nb
+Ti N Ti
+Sc N Ta N Ta N Sc
+Mo C Ti C Mo
+W N Sc N W
+Cr N Ti N Ti N Cr
+Ta N Ta N Ta N Ta
+Ti N Ti
+Ti C Ti
+Mo C Hf C Mo
+V C V
+Hf N Hf
+Cr C Sc C Sc C Cr
+W N Sc N W
+W C Ti C W
+Cr C Zr C Zr C Cr
+W C Zr C W
+Sc C Ta C Ta C Sc
+Nb C Hf C Nb
+Ti C Ti
+Cr N Zr N Zr N Cr
+Cr C Zr C Zr C Cr
+W C Ta C W
+Mo C Hf C Mo
+Ta N Ta
+Cr N Ta N Cr
+Ta N Zr N Ta
+V N Hf N V
+Mo C Ti C Mo
+Mo N Ta N Ta N Mo
+Ta C Sc C Sc C Ta
+Cr N Sc N Sc N Cr
+V C Sc C V
+Mo C Zr C Zr C Mo
+Mo C V C Mo
+Mo C Hf C Mo
+Sc C Ta C Sc
+Mo C Ti C Ti C Mo
+V C Zr C Zr C V
+Cr C Cr
+Mo C Hf C Hf C Mo
+Nb C Ti C Nb
+Sc C Hf C Sc
+Mo N Nb N Mo
+W N Sc N W
+W C W
+Mo C Nb C Mo
+V C V
+W C Sc C W
+Mo N Ta N Mo
+Sc C Nb C Sc
+Cr N Nb N Cr
+V N V
+Sc N Ta N Sc
+W C Sc C Sc C W
+W C V C V C W
+Cr C Ta C Cr
+Ta C Zr C Ta
+W N Ti N W
+Nb C Zr C Zr C Nb
+Sc C Ti C Ti C Sc
+Mo C Zr C Zr C Mo
+Cr C Ti C Ti C Cr
+Cr N Ta N Cr
+Cr N Cr
+Sc N V N Sc
+W C Nb C W
+Ti N Ti
+W N Ti N Ti N W
+W C Sc C W
+W N Sc N W
+V C Ti C V
+Mo C Ta C Ta C Mo
+Cr C Ti C Cr
+V N Zr N V
+Sc C Ti C Sc
+Ti N Ti
+W N V N W
+Sc N Nb N Sc
+Ta N Ti N Ta
+Ta C Sc C Ta
+W C Ti C W
+Ta N Zr N Ta
+W C Ta C Ta C W
+Cr C Nb C Cr
+Mo N Sc N Sc N Mo
+V C Zr C Zr C V
+W C Ta C Ta C W
+Nb C Hf C Nb
+Sc N Ti N Ti N Sc
+Sc C Hf C Sc
+Mo C Hf C Hf C Mo
+Sc N Zr N Zr N Sc
+Ti C Ti
+Mo C Sc C Mo
+Cr C Ti C Cr
+Cr C Ta C Cr
+Ta C Ti C Ta
+Sc N Ta N Sc
+W N Sc N Sc N W
+Hf N Hf
+Cr C Ti C Ti C Cr
+Mo C Hf C Hf C Mo
+Nb C Sc C Nb
+Cr C Hf C Hf C Cr
+Cr N V N Cr
+Cr C Ti C Ti C Cr
+W N Nb N Nb N W
+Nb C Nb
+Sc C Hf C Hf C Sc
+W N Ta N W
+W C Zr C W
+V C V
+Sc N V N V N Sc
+Mo C Ti C Mo
+Sc C V C Sc
+Sc N Ti N Sc
+Ti N Ti
+Mo N Sc N Mo
+Sc N Ti N Sc
+Ti N Ti
+Cr N Cr
+W N Sc N W
+Cr N Ti N Cr
+Mo N Hf N Hf N Mo
+Sc N Nb N Sc
+V C Cr C Cr C V
+Cr N Ti N Ti N Cr
+Cr C Zr C Cr
+Nb C Zr C Nb
+Mo N Zr N Zr N Mo
+Mo C Zr C Zr C Mo
+Sc C Nb C Nb C Sc
+Mo C Mo
+Sc N Nb N Sc
+Mo N V N Mo
+W N Ti N Ti N W
+Mo C V C Mo
+V C Ti C V
+V C Hf C V
+Sc C V C V C Sc
+Cr C Sc C Cr
+Cr C Zr C Zr C Cr
+Mo N Zr N Zr N Mo
+V C Cr C W C V
+Cr C Hf C Hf C Cr
+Sc N V N Sc
+Sc N Nb N Sc
+Cr C Hf C Cr
+Sc N Nb N Sc
+V C Zr C V
+Mo C V C V C Mo
+Sc C Ta C Ta C Sc
+Ta N Zr N Ta
+Sc C W C W C Sc
+Nb C Sc C Nb
+Mo C Zr C Mo
+W C Nb C W
+W C W
+Sc C Zr C Zr C Sc
+V C Hf C V
+Mo C Ti C Ti C Mo
+Mo N Ti N Mo
+Sc N Nb N Nb N Sc
+Sc C Nb C Nb C Sc
+V N V
+W N Hf N Hf N W
+Ta N Ti N Ta
+Ta C Zr C Ta
+Sc C Ti C Sc
+Sc N V N Sc
+Ta C Ti C Ti C Ta
+Nb C Zr C Nb
+Sc N Hf N Sc
+Cr N Sc N Cr
+Mo C Hf C Hf C Mo
+W N Sc N W
+Mo N Sc N Mo
+Sc C Ta C Ta C Sc
+Sc N Hf N Hf N Sc
+Mo C Hf C Mo
+Sc N Ta N Ta N Sc
+Cr N Ti N Ti N Cr
+Sc C Mo C Mo C Sc
+Sc N Hf N Hf N Sc
+V N V
+Ti N Ti
+Mo C Ti C Ti C Mo
+V C Zr C Zr C V
+V C Zr C Zr C V
+Mo C Hf C Mo
+Sc N V N V N Sc
+Mo C Sc C Mo
+Mo C Ta C Mo
+Sc C Hf C Sc
+Cr N Sc N Cr
+Nb C Zr C Zr C Nb
+Ta C Cr C Sc C Ta
+Mo C V C V C Mo
+Sc C Ta C Ta C Sc
+W C Sc C W
+Ta N Ti N Ti N Ta
+Mo C Sc C Mo
+Mo N V N Mo
+W C Zr C Zr C W
+Mo C Mo
+V C V
+Mo N Ta N Mo
+V C Cr C V
+Mo C Zr C Zr C Mo
+Mo N Hf N Hf N Mo
+Sc C Nb C Sc
+Sc N Ta N Sc
+Mo N Zr N Zr N Mo
+Cr C Sc C Cr
+Sc N V N Sc
+Mo N Sc N Mo
+V C V
+W N Hf N Hf N W
+Ta C Hf C Ta
+Cr N Sc N Cr
+Nb N Hf N Nb
+W C Ti C W
+V N Hf N Hf N V
+Nb N Zr N Nb
+Cr C Sc C Cr
+Cr N Ti N Cr
+Cr C Nb C Cr
+Cr N Sc N Cr
+V C Ti C Ti C V
+Mo N Zr N Mo
+Sc N Zr N Sc
+W N Ti N Ti N W
+Ta C Sc C Ta
+Sc N Nb N Sc
+Sc N Nb N Nb N Sc
+Mo N Hf N Hf N Mo
+Mo C Zr C Mo
+W N Nb N W
+V C Hf C Hf C V
+Mo C Zr C Mo
+Mo C Ti C Ti C Mo
+W N Ta N W
+Mo N Ti N Ti N Mo
+Mo N Ti N Ti N Mo
+Mo C Ta C Ta C Mo
+Sc C Hf C Sc
+V C Ti C V
+Nb C Ti C Nb
+Mo N Ta N Mo
+W C Sc C Sc C W
+W C Sc C W
+W C Zr C Zr C W
+Sc C W C Sc
+Mo C Ta C Mo
+Sc N Zr N Zr N Sc
+Ta N Ti N Ta
+V C Hf C V
+Cr N V N Cr
+Sc C Hf C Hf C Sc
+Mo C Zr C Zr C Mo
+V C Hf C Hf C V
+Mo N Sc N Mo
+Ta C Ti C Ta
+Cr C Sc C Cr
+Ta C Hf C Hf C Ta
+V N Zr N Zr N V
+Cr C Ti C Cr
+Ta C Sc C Ta
+Sc N Ta N Sc
+Sc C Nb C Sc
+Mo C Ta C Mo
+Cr N Ta N Cr
+Cr C Hf C Cr
+Mo C V C Mo
+Cr N Hf N Hf N Cr
+Sc C Ti C Sc
+Sc N Zr N Zr N Sc
+Sc C Ta C Ta C Sc
+Mo N Hf N Hf N Mo
+Sc N Zr N Sc
+Mo C Ta C Ta C Mo
+Mo C Hf C Hf C Mo
+Ta C Zr C Zr C Ta
+Nb C Sc C Nb
+Cr C Sc C Cr
+V N V
+Ta N Sc N Ta
+Ta C Ti C Ti C Ta
+Sc C Zr C Zr C Sc
+Mo C Zr C Zr C Mo
+Nb C Zr C Nb
+Sc C Ta C Sc
+Mo C Hf C Hf C Mo
+Sc N Hf N Sc
+Ta N Hf N Ta
+Mo C Ti C Mo
+Mo N Zr N Zr N Mo
+V C V
+Nb C Zr C Nb
+Cr C Ti C Cr
+V N V
+W N Zr N W
+W C Sc C W
+Mo N Ti N Ti N Mo
+W C Ti C W
+Cr C Zr C Cr
+Mo N Sc N Sc N Mo
+Sc C Ta C Ta C Sc
+Cr C Hf C Cr
+Cr N V N V N Cr
+Ti N Ti
+V N Zr N Zr N V
+Sc C Nb C Sc
+Sc C Nb C Nb C Sc
+Sc N Ti N Sc
+Nb C Ti C Nb
+Nb C Nb
+Ta C Ti C Ti C Ta
+Mo C Ta C Mo
+Sc C Nb C Sc
+Nb N Hf N Nb
+Ti C Ti
+Mo C Hf C Mo
+Nb C Nb
+W C W
+W N Zr N W
+Mo N V N V N Mo
+W C Hf C W
+Sc C Ta C Sc
+Cr C Ti C Ti C Cr
+Mo N Ta N Mo
+Mo N Ta N Mo
+Mo N Hf N Mo
+Mo C Ta C Ta C Mo
+Mo C Ta C Mo
+Nb C Nb
+Sc C W C W C Sc
+W N Ti N Ti N W
+Mo N Ti N Ti N Mo
+Ta C Ti C Ti C Ta
+Cr C Ta C Cr
+W C V C V C W
+Nb C Hf C Nb
+Cr C Zr C Zr C Cr
+Cr N Cr
+V N Sc N V
+Mo N Ti N Mo
+Mo C Sc C Mo
+W C Ta C Ta C W
+Sc N Hf N Sc
+Ta C Ta
+Mo C Sc C Sc C Mo
+V C Hf C V
+Ta C Ta C Ta C Ta
+Mo N Hf N Mo
+Sc N Ta N Ta N Sc
+V C Zr C V
+Cr C Ta C Ta C Cr
+Sc N Ti N Sc
+Mo C Hf C Mo
+Cr C Hf C Cr
+Ta C Ti C Ta
+Ta C Zr C Ta
+Nb C Ti C Nb
+W N Sc N W
+V C Hf C Hf C V
+Mo C Ti C Ti C Mo
+Sc C Nb C Sc

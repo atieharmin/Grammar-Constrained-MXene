@@ -1,0 +1,44 @@
+{
+    "run_dir": "runs/ablate/disc_ablate_v1",
+    "seed": 1337,
+    "device": "cuda",
+  
+    "gen_ckpt": "runs/ablate/gen_ablate_A1_symm/generator.pt",
+    "gen_model_cfg": {
+      "n_positions": 64,
+      "n_ctx": 64,
+      "n_layer": 6,
+      "n_head": 8,
+      "n_embd": 256,
+      "dropout": 0.1
+    },
+  
+    "unstable_csv": "data/raw/unstable.csv",
+  
+    "on_policy": {
+      "max_len": 32,
+      "temperature": 1.2,
+      "top_p": 0.95,
+      "num_samples": 2000
+    },
+  
+    "extra_disc_jsonls": [],
+  
+    "model_cfg": {
+      "d_model": 256,
+      "nhead": 8,
+      "num_layers": 4,
+      "dropout": 0.1
+    },
+  
+    "val_frac": 0.1,
+    "batch_size": 128,
+    "lr": 1e-4,
+    "betas": [0.9, 0.999],
+    "pos_weight": 1.0,
+    "epochs": 15,
+    "save_every": 5,
+  
+    "resume_ckpt": ""
+  }
+  
