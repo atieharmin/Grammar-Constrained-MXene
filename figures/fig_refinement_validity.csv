@@ -1,0 +1,4 @@
+model,run,ckpt,n,n_valid,validity,ci_lo,ci_hi,unique_valid,n_invalid,rej_preference,rej_same_group,rej_symmetry,rej_single_x,rej_rule_invalid
+Supervised,eval_ablate_A1,runs/ablate/gen_ablate_A1_symm/generator.pt,1000,960,0.96,0.9459900625744302,0.9704891907260906,165,40,34,2,4,0,0
+RL,eval_ablate_A5_with_rl,runs/ablate/gen_rl_stage1/generator.pt,1000,977,0.977,0.9657233030515149,0.9846258356970685,153,23,22,0,1,0,0
+HITL,eval_ablate_A6_with_hitl,runs/ablate/gen_hitl_round1/generator.pt,1000,962,0.962,0.9482727912457906,0.9721911544603846,147,38,38,0,0,0,0

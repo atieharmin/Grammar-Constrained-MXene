@@ -1,29 +1,35 @@
-# MXene-GAN
+# Grammar-Constrained Generative Modeling of Layer-Resolved MXene Compositions 
 
-A grammar-constrained generative adversarial framework for designing novel MXene compositions. The system uses a GPT-2-based generator guided by a context-free grammar to produce syntactically valid MXene structures, paired with a Transformer discriminator trained via on-policy sampling and optional human-in-the-loop feedback.
-
-## Overview
-
-MXenes are a family of 2D transition metal carbides and nitrides with the general formula M<sub>n+1</sub>X<sub>n</sub>, where M is an early transition metal and X is carbon or nitrogen. This project generates candidate MXene compositions by:
-
-1. Defining a **context-free grammar** that encodes the structural rules of MXene stoichiometries (MX1, MX2, MX3)
-2. Training a **generator** (GPT-2) to produce sequences of production rules, with grammar masking to guarantee syntactic validity
-3. Training a **discriminator** (Transformer encoder) to distinguish chemically plausible compositions from implausible ones
-4. Incorporating **chemical constraints** as auxiliary losses (occupancy ordering, periodic-group penalties)
-5. Supporting a **human-in-the-loop (HITL)** workflow for iterative refinement with expert feedback
-
-### Supported Stoichiometries
-
-| Stoichiometry | Layer Structure | Description |
-|---|---|---|
-| **MX1** | M X M | Single metal on both outer layers |
-| **MX2** | M X M' X M | Two outer layers + one distinct inner metal |
-| **MX3** | M X M' M' X M | Two outer layers + paired inner metals |
-
-### Supported Elements
-
-- **Metals (M):** Cr, Mo, W, Sc, V, Nb, Ta, Ti, Zr, Hf
-- **X elements:** C, N
+Code for **Grammar-Constrained Generative Modeling of Layer-Resolved MXene Compositions**.
+ 
+This project proposes new MXene compositions, layer by layer. A small GPT-2 model (the *generator*) writes each candidate as a sequence of grammar rules, so every output is a well-formed MXene structure by construction. A second model (the *discriminator*) scores how chemically plausible each candidate is. The generator can then be improved in two ways: by learning from the discriminator's scores (reinforcement learning), or by learning from candidates that a human expert has reviewed (human-in-the-loop).
+ 
+## Background
+ 
+MXenes are two-dimensional carbides and nitrides with the general formula M<sub>n+1</sub>X<sub>n</sub>, where M is an early transition metal and X is carbon or nitrogen. They are built from alternating metal and X layers. This project covers three layer patterns, including ordered double-metal MXenes where a second metal (M′) sits in the inner layers:
+ 
+| Class | Formula | Layer order | Example |
+|---|---|---|---|
+| MX1 | M<sub>2</sub>X | M · X · M | `Ti C Ti` (Ti<sub>2</sub>C) |
+| MX2 | M<sub>2</sub>M′X<sub>2</sub> | M · X · M′ · X · M | `Sc C Nb C Sc` (Sc<sub>2</sub>NbC<sub>2</sub>) |
+| MX3 | M<sub>2</sub>M′<sub>2</sub>X<sub>3</sub> | M · X · M′ · X · M′ · X · M | `Ta C Ti C Ti C Ta` (Ta<sub>2</sub>Ti<sub>2</sub>C<sub>3</sub>) |
+ 
+For MX2 and MX3, M′ may be the same metal as M, which gives the single-metal forms M<sub>3</sub>X<sub>2</sub> and M<sub>4</sub>X<sub>3</sub>.
+ 
+**Metals (M, M′):** Cr, Mo, W, Sc, V, Nb, Ta, Ti, Zr, Hf
+**X elements:** C, N
+ 
+## How it works
+ 
+1. **Grammar.** A context-free grammar (`grammar.py`) spells out every allowed layer pattern. A candidate MXene is written as the list of grammar rules used to build it, not as free text.
+2. **Generator.** A GPT-2 model learns to produce these rule lists. At every step, choices the grammar does not allow are blocked, so the output is always structurally well-formed.
+3. **Chemistry-based training penalties.** Two optional extra loss terms nudge the generator toward chemically sensible choices:
+   - *Occupancy ordering* — discourages placing a less-preferred metal on the outside and a more-preferred one on the inside.
+   - *Group penalty* — discourages pairing two different metals from the same periodic-table group (for example Ti with Zr).
+4. **Discriminator.** A small Transformer classifier, combined with 15 hand-built chemistry features, learns to separate plausible from implausible candidates. Its training set comes from the generator's own samples, labeled by the rule checker (`validator.py`) and by a list of compositions known to be unstable.
+5. **Refinement.** The pretrained generator is fine-tuned either
+   - with **reinforcement learning** (REINFORCE), using the discriminator's score as the reward, or
+   - with **human-in-the-loop (HITL)** feedback, using candidates an expert has marked as valid.
 
 ## Project Structure
 
@@ -47,7 +53,7 @@ MXene/
 │   └── ablate/            # Example configs for ablation experiments
 ├── data/
 │   ├── raw/               # Raw CSV data (data.csv, unstable.csv)
-│   └── aug_v1/            # Augmented training data (dataset.jsonl, rule_vocab.pkl)
+│   └── hitl/              # Human labeled data
 ├── runs/                  # Training checkpoints and evaluation outputs
 └── requirements.txt
 ```
@@ -60,15 +66,8 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Requirements
+Requires Python 3.10+, PyTorch ≥ 2.0, Transformers ≥ 4.30, NumPy ≥ 1.24, pandas ≥ 2.0, scikit-learn ≥ 1.3, and tqdm ≥ 4.65. The provided configs use `"device": "cuda"`; set it to `"auto"` or `"cpu"` to run without a GPU.
 
-- Python 3.10+
-- PyTorch >= 2.0.0
-- Transformers >= 4.30.0
-- NumPy >= 1.24.0
-- pandas >= 2.0.0
-- scikit-learn >= 1.3.0
-- tqdm >= 4.65.0
 
 ## Usage
 
@@ -128,31 +127,6 @@ python cli.py eval \
 
 The evaluation config specifies `gen_ckpt`, `disc_ckpt`, `data_jsonl`, and `N` (number of samples). Outputs are written to `run_dir`: `eval_report.json` (validity rate, discriminator AUC/accuracy), `samples.jsonl`, `samples.csv`, and `unique_mxenes.txt` / `unique_mxenes.jsonl`.
 
-## Data Format
-
-Training data is stored as JSONL with one example per line:
-
-```json
-{
-  "rules": [0, 3, 15, 6, 25],
-  "text": "<S>-><MX1> <MX1>->STOICH_MX1,<M_outer_L>,<X>,<M_outer_R> <M_outer_L>->Ti <X>->C <M_outer_R>->Ti",
-  "outer": "Ti",
-  "inner": "Ti",
-  "x": "C",
-  "stoich": "MX1",
-  "weight": 1.0
-}
-```
-
-| Field | Description |
-|---|---|
-| `rules` | List of production rule IDs (integers) |
-| `text` | Human-readable linearization of the rule sequence |
-| `outer` | Outer metal element |
-| `inner` | Inner metal element (same as outer for MX1) |
-| `x` | X element (C or N) |
-| `stoich` | Stoichiometry class (MX1, MX2, or MX3) |
-| `weight` | Sample weight for training |
 
 ## Grammar
 
@@ -179,15 +153,35 @@ The `validator.py` module checks generated sequences against multiple criteria:
 - **Preference ordering** — outer metal rank should not exceed inner metal rank
 - **Group constraint** — metals from the same periodic-table group should not appear together in different positions
 
-## Ablation Experiments
-
-The `configs/ablate/` directory contains configs for systematic ablation studies:
-
-| Config | Description |
+## Experiments
+ 
+| Config | What changes |
 |---|---|
-| `gen_ablate_A2_occ` | No Occupancy loss |
-| `gen_ablate_A3_group` | No Group penalty |
-| `gen_ablate_A4_all` | All auxiliary losses disabled (baseline) |
-| `gen_ablate_A5_with_rl` | RL shaping enabled |
-| `gen_hitl` | Fine-tuning with HITL data |
-| `eval_ablate_A0`–`A6` | Corresponding evaluation configs |
+| `gen_ablate_A1` | Full model: both chemistry penalties on (weight 0.5 each) |
+| `gen_ablate_A2_occ` | Occupancy-ordering penalty off |
+| `gen_ablate_A3_group` | Group penalty off |
+| `gen_ablate_A4_all` | Both penalties off (plain grammar-constrained baseline) |
+| `gen_ablate_A5_with_rl` | A1 fine-tuned with reinforcement learning (reward weight 0.1) |
+| `gen_hitl_round1` | A1 fine-tuned on human-reviewed candidates |
+| `eval_ablate_A0`–`A6` | Matching evaluation configs (1,000 samples each) |
+ 
+### Included results
+ 
+The evaluation reports in this repository (1,000 samples, temperature 1.0, top-p 0.9):
+ 
+| Generator | Validity rate | Unique valid MXenes | Discriminator AUC | Discriminator accuracy |
+|---|---|---|---|---|
+| Pretrained (A1) | 96.0% | 165 | 0.967 | 0.816 |
+| + Reinforcement learning (A5) | 97.7% | 153 | 0.962 | 0.929 |
+| + Human-in-the-loop (A6) | 96.2% | 147 | 0.927 | 0.914 |
+ 
+In all three runs, most remaining failures come from the `preference` check. The full lists of unique compositions are in `unique_mxenes.jsonl`, `unique_mxenes-rl.jsonl`, and `unique_mxenes-hitl.jsonl`.
+ 
+## Citation
+ 
+If you use this code, please cite:
+ 
+```
+Atieh Armin, Mohammad Mozafari, Daniel Schwartz, Ali Shokoufandeh, Masoud Soroush.
+Grammar-Constrained Generative Modeling of Layer-Resolved MXene Compositions. In revision.
+```
